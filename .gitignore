@@ -1,0 +1,69 @@
+# OS / system files
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter / notebooks
+.ipynb_checkpoints
+
+# Data / model artifacts (ignore content but keep directory)
+data/raw/*
+data/external/*
+data/processed/*
+
+models/*
+
+# Common model file formats
+*.pkl
+*.joblib
+*.h5
+*.hdf5
+*.onnx
+*.pt
+*.pth
+*.tflite
+*.bin
+
+# Large data formats
+*.parquet
+*.feather
+*.csv
+*.zip
+*.tar.gz
+*.tgz
+
+# Logs, runtime files, caches
+*.log
+logs/
+tmp/
+temp/
+*.bak
+*.swp
+
+# Secrets / credentials / env
+.env
+.env.* 
+secrets.yml
+credentials/
+*.pem
+*.key
+*.crt
+
+# IDE (VS Code)
+.vscode/
+.history/

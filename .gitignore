@@ -22,9 +22,9 @@ pip-delete-this-directory.txt
 .ipynb_checkpoints
 
 # Data / model artifacts (ignore content but keep directory)
-data/raw/*
-data/external/*
-data/processed/*
+data/raw/**
+data/external/**
+data/processed/**
 
 models/*
 

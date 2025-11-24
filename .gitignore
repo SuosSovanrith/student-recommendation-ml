@@ -26,7 +26,12 @@ data/raw/**
 data/external/**
 data/processed/**
 
-models/*
+!data/raw/.gitkeep
+!data/external/.gitkeep
+!data/processed/.gitkeep
+
+models/**
+!models/.gitkeep
 
 # Common model file formats
 *.pkl
